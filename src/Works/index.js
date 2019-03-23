@@ -6,26 +6,34 @@ import './Works.scss';
 function Works() {
   return (
     <div className="Works">
-      <img
-        className="warbler-a"
-        src={warbler}
-        alt="Warbler, a twitter clone project"
-      />
-      <img
-        className="warbler-b"
-        src={warbler}
-        alt="Warbler, a twitter clone project"
-      />
-      <img
-        className="warbler-a"
-        src={warbler}
-        alt="Warbler, a twitter clone project"
-      />
-      <img
-        className="warbler-b"
-        src={warbler}
-        alt="Warbler, a twitter clone project"
-      />
+      <div>
+        <img
+          className="warbler-a"
+          src={warbler}
+          alt="Warbler, a twitter clone project"
+        />
+      </div>
+      <div>
+        <img
+          className="warbler-c"
+          src={warbler}
+          alt="Warbler, a twitter clone project"
+        />
+      </div>
+      <div>
+        <img
+          className="warbler-c"
+          src={warbler}
+          alt="Warbler, a twitter clone project"
+        />
+      </div>
+      <div>
+        <img
+          className="warbler-b"
+          src={warbler}
+          alt="Warbler, a twitter clone project"
+        />
+      </div>
     </div>
   );
 }
