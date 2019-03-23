@@ -1,5 +1,7 @@
 import * as React from 'react';
-import { Button, ButtonGroup } from 'reactstrap';
+import { Button, ButtonGroup, ListGroup, ListGroupItem } from 'reactstrap';
+
+import './languages.scss';
 
 const frontEnd = [
   'React',
@@ -37,29 +39,34 @@ const misc = [
 function Languages() {
   const [techBio, setTechBio] = React.useState(frontEnd);
   return (
-    <React.Fragment>
-      <h4>Some of the technology I use</h4>
-      <ul>
+    <div className="Languages">
+      <h4 className="Languages__header">Some of the technology I use</h4>
+      <ListGroup className="Languages__list">
         {techBio.map(item => (
-          <li>{item}</li>
+          <ListGroupItem>{item}</ListGroupItem>
         ))}
-      </ul>
-      <ButtonGroup>
+      </ListGroup>
+      <ButtonGroup className="Languages__buttons">
         <Button
+          className="Languages__button"
           disabled={techBio === frontEnd}
           onClick={() => setTechBio(frontEnd)}>
           Front End
         </Button>
         <Button
+          className="Languages__button"
           disabled={techBio === backEnd}
           onClick={() => setTechBio(backEnd)}>
           Back End
         </Button>
-        <Button disabled={techBio === misc} onClick={() => setTechBio(misc)}>
+        <Button
+          className="Languages__button"
+          disabled={techBio === misc}
+          onClick={() => setTechBio(misc)}>
           Miscellaneous
         </Button>
       </ButtonGroup>
-    </React.Fragment>
+    </div>
   );
 }
 

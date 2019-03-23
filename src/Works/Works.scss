@@ -2,7 +2,7 @@
 
 .Works {
   display: grid;
-  border-top: 1px solid black;
+  border-top: 35px solid $primary-color;
   border-bottom: 1px solid black;
   padding-right: 10%;
   padding-left: 10%;
@@ -10,7 +10,7 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 25px;
   justify-items: center;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 990px) {
     grid-template-columns: 1fr;
   }
   height: 100%;
@@ -26,12 +26,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border: 7px solid #555555;
 }
 
 .Warbler__image {
   height: calc(100vh - 100px);
   width: 100vw;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 990px) {
     height: 70vh;
   }
 }
@@ -63,6 +64,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border: 7px solid #555555;
 }
 
 .Shareshot__info {
@@ -84,7 +86,7 @@
 .Shareshot__image {
   height: calc(100vh - 100px);
   width: 100vw;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 990px) {
     height: 70vh;
   }
 }
