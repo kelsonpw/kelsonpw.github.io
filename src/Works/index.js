@@ -17,7 +17,11 @@ function Works() {
         <div className="Warbler__info">
           <p className="Warbler__description">
             Airhead, a working slack clone built entirely with{' '}
-            <i>React Hooks</i> and <i>Firebase</i>
+            <i>React Hooks</i> and <i>Firebase</i>.{' '}
+            <small>
+              &nbsp; Type @bot to chat to Bender. He's a chat bot hosted on a
+              lambda function!
+            </small>
           </p>
           <div className="Warbler__links">
             <a className="Warbler__link">github</a>|

@@ -32,8 +32,7 @@
   height: calc(100vh - 100px);
   width: 100vw;
   @media screen and (max-width: 768px) {
-    width: auto;
-    height: 100vh;
+    height: 70vh;
   }
 }
 
@@ -86,17 +85,6 @@
   height: calc(100vh - 100px);
   width: 100vw;
   @media screen and (max-width: 768px) {
-    width: auto;
-    height: 100vh;
-  }
-}
-
-.warbler-c {
-  margin: 0;
-  height: calc(100vh-100px);
-  width: 100vw;
-  align-self: start;
-  @media screen and (max-width: 768px) {
-    width: auto;
+    height: 70vh;
   }
 }

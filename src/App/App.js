@@ -2,6 +2,7 @@ import * as React from 'react';
 import Nav from '../Nav';
 import Info from '../Info';
 import Works from '../Works';
+import Bio from '../Bio';
 
 import './App.scss';
 
@@ -11,6 +12,7 @@ function App() {
       <Nav />
       <Info />
       <Works />
+      <Bio />
     </div>
   );
 }
