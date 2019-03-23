@@ -1,0 +1,47 @@
+.Header {
+  padding: 0 80px;
+  display: grid;
+  grid-template-rows: 260px;
+  grid-template-columns: repeat(3, 1fr);
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.Header__left,
+.Header__right {
+  display: grid;
+  grid-template: 1fr / repeat(2, 1fr);
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.Header__center {
+  display: grid;
+  justify-items: center;
+}
+
+.Header__row {
+  margin-top: 120px;
+  justify-content: center;
+  display: flex;
+}
+
+.Header__pic {
+  background-image: url(./headshot.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 190px;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  margin-top: 40px;
+  border: 10px solid black;
+  @media screen and (max-width: 768px) {
+    width: 240px;
+    height: 240px;
+    background-size: 260px;
+  }
+}

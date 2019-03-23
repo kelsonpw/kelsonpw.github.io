@@ -1,0 +1,27 @@
+.Works {
+  display: grid;
+  padding: 0 10%;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  justify-items: center;
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.warbler-a {
+  margin: 0;
+  width: 40vw;
+  @media screen and (max-width: 768px) {
+    width: 80vw;
+  }
+}
+
+.warbler-b {
+  margin: 0;
+  width: 40vw;
+  @media screen and (max-width: 768px) {
+    width: 80vw;
+  }
+}
