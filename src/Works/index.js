@@ -1,7 +1,8 @@
 import * as React from 'react';
+
 import warbler from './warbler.png';
 import shareshot from './shareshot.png';
-
+import airhead from './airhead.png';
 import './Works.scss';
 
 function Works() {
@@ -10,15 +11,18 @@ function Works() {
       <div className="Warbler">
         <img
           className="Warbler__image"
-          src={warbler}
+          src={airhead}
           alt="Warbler, a twitter clone project"
         />
         <div className="Warbler__info">
           <p className="Warbler__description">
-            Warbler, a twitter clone built with <i>Python (flask)</i>
+            Airhead, a working slack clone built entirely with{' '}
+            <i>React Hooks</i> and <i>Firebase</i>
           </p>
-          <a className="Warbler__link">github</a>|
-          <a className="Warbler__link">site</a>
+          <div className="Warbler__links">
+            <a className="Warbler__link">github</a>|
+            <a className="Warbler__link">site</a>
+          </div>
         </div>
       </div>
 
@@ -28,8 +32,10 @@ function Works() {
             Shareshot, a modern image sharing app built with VueJS, GraphQL,
             Apollo, and Express
           </p>
-          <a className="Shareshot__link">github</a>|
-          <a className="Shareshot__link">site</a>
+          <div className="Shareshot__links">
+            <a className="Shareshot__link">github</a>|
+            <a className="Shareshot__link">site</a>
+          </div>
         </div>
         <img
           className="Shareshot__image"
@@ -47,8 +53,10 @@ function Works() {
           <p className="Warbler__description">
             Warbler, a twitter clone built with <i>Python (flask)</i>
           </p>
-          <a className="Warbler__link">github</a>|
-          <a className="Warbler__link">site</a>
+          <div className="Warbler__links">
+            <a className="Warbler__link">github</a>|
+            <a className="Warbler__link">site</a>
+          </div>
         </div>
       </div>
 

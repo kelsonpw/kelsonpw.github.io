@@ -22,10 +22,13 @@
   padding-bottom: 30px;
   align-self: start;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .Warbler__image {
-  margin: 0;
   height: calc(100vh - 100px);
   width: 100vw;
   @media screen and (max-width: 768px) {
@@ -36,6 +39,13 @@
 
 .Warbler__info {
   margin: 60px 0 30px 0;
+  max-width: 80%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.Warbler__description {
 }
 
 .Warbler__link {
@@ -47,13 +57,19 @@
 .Shareshot {
   align-self: end;
   padding-top: 30px;
-  margin: 0;
   background-color: white;
   height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .Shareshot__info {
-  margin: 30px 0;
+  margin: 30px 0 60px 0;
+  max-width: 80%;
+  text-align: center;
 }
 
 .Shareshot__description {
@@ -61,6 +77,9 @@
 }
 
 .Shareshot__link {
+  &:hover {
+    font-size: 25px;
+  }
 }
 
 .Shareshot__image {
