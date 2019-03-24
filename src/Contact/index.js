@@ -37,9 +37,7 @@ function Contact() {
       <h4>Let's get in touch!</h4>
       <div className="Contact__body">
         <div className="Contact_message">
-          <a name="contacts" id="contacts" href="#contacts">
-            contacts
-          </a>
+          <a name="contacts" id="contacts" href="#contacts" />
           <strong>Shoot Me A Message</strong>
           <Form className="Contact__form">
             <FormGroup className="Contact__form__group">
