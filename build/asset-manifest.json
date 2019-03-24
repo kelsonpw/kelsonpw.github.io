@@ -1,0 +1,21 @@
+{
+  "main.css": "/static/css/main.088e2f49.chunk.css",
+  "main.js": "/static/js/main.aa43d97e.chunk.js",
+  "main.js.map": "/static/js/main.aa43d97e.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+  "static/css/2.f4e181db.chunk.css": "/static/css/2.f4e181db.chunk.css",
+  "static/js/2.b2f313d3.chunk.js": "/static/js/2.b2f313d3.chunk.js",
+  "static/js/2.b2f313d3.chunk.js.map": "/static/js/2.b2f313d3.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.bbbe5c97f44099109ccc2d0e37fd73cc.js": "/precache-manifest.bbbe5c97f44099109ccc2d0e37fd73cc.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/2.f4e181db.chunk.css.map": "/static/css/2.f4e181db.chunk.css.map",
+  "static/css/main.088e2f49.chunk.css.map": "/static/css/main.088e2f49.chunk.css.map",
+  "static/media/airhead.png": "/static/media/airhead.8d4b9a59.png",
+  "static/media/nav.scss": "/static/media/headshot.f694c857.png",
+  "static/media/kelson-warner-resume.pdf": "/static/media/kelson-warner-resume.3972566e.pdf",
+  "static/media/shareshot2.png": "/static/media/shareshot2.36e0a047.png",
+  "static/media/warbler2.png": "/static/media/warbler2.03f12b33.png",
+  "static/media/yahtzee2.png": "/static/media/yahtzee2.d3705196.png"
+}
