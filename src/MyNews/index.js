@@ -19,7 +19,6 @@ function MyNews() {
       setLastUpdated(mostRecent);
     }
   }, [news]);
-  console.log(new Date(lastUpdated * 1000), 'news');
   return (
     <div className="MyNews">
       <h4 className="MyNews__header">Articles I Found Interesting/Helpful</h4>
