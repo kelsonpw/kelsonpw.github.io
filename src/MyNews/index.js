@@ -3,7 +3,7 @@ import useCollection from '../useCollection';
 import './mynews.scss';
 
 function MyNews() {
-  const news = useCollection('links', 'date');
+  const news = useCollection('links');
   const [lastUpdated, setLastUpdated] = React.useState(null);
 
   React.useEffect(() => {
