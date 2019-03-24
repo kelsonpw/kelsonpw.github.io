@@ -16,7 +16,8 @@
     "react-scripts": "2.1.8",
     "reactstrap": "^7.1.0",
     "typography": "^0.16.19",
-    "typography-theme-funston": "^0.16.19"
+    "typography-theme-funston": "^0.16.19",
+    "uuid": "^3.3.2"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Button, ButtonGroup, ListGroup, ListGroupItem } from 'reactstrap';
 
 import './languages.scss';
+import ReactGA from 'react-ga';
 
 const frontEnd = [
   'React',
@@ -50,19 +51,37 @@ function Languages() {
         <button
           className="Languages__button first"
           disabled={techBio === frontEnd}
-          onClick={() => setTechBio(frontEnd)}>
+          onClick={() => {
+            ReactGA.event({
+              category: 'User',
+              action: 'Show front end',
+            });
+            setTechBio(frontEnd);
+          }}>
           Front End
         </button>
         <button
           className="Languages__button"
           disabled={techBio === backEnd}
-          onClick={() => setTechBio(backEnd)}>
+          onClick={() => {
+            ReactGA.event({
+              category: 'User',
+              action: 'Show back end',
+            });
+            setTechBio(backEnd);
+          }}>
           Back End
         </button>
         <button
           className="Languages__button last"
           disabled={techBio === misc}
-          onClick={() => setTechBio(misc)}>
+          onClick={() => {
+            ReactGA.event({
+              category: 'User',
+              action: 'Show misc',
+            });
+            setTechBio(misc);
+          }}>
           Miscellaneous
         </button>
       </ButtonGroup>
