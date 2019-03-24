@@ -2,91 +2,98 @@
 
 .Works {
   display: grid;
-  border-top: 35px solid $primary-color;
-  border-bottom: 1px solid black;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  border: 1px solid black;
   padding-right: 10%;
   padding-left: 10%;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
+  gap: 75px;
   justify-items: center;
   @media screen and (max-width: 990px) {
     grid-template-columns: 1fr;
   }
-  height: 100%;
   background-color: $primary-color;
 }
 
+.Airhead,
 .Warbler {
   background-color: white;
   padding-bottom: 30px;
-  align-self: start;
-  height: 100%;
+  align-self: end;
+  width: auto;
   display: flex;
+  height: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border: 7px solid #555555;
 }
-
+.Airhead__image,
 .Warbler__image {
-  height: calc(100vh - 100px);
-  width: 100vw;
+  height: calc(auto - 100px);
+  width: auto;
   @media screen and (max-width: 990px) {
     height: 70vh;
   }
 }
-
+.Airhead__info,
 .Warbler__info {
-  margin: 60px 0 30px 0;
+  margin: 30px 0 30px 0;
   max-width: 80%;
   text-align: center;
   display: flex;
   flex-direction: column;
 }
 
+.Airhead__description,
 .Warbler__description {
 }
 
+.Airhead__link,
 .Warbler__link {
   &:hover {
     font-size: 25px;
   }
 }
 
-.Shareshot {
-  align-self: end;
-  padding-top: 30px;
-  background-color: white;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 7px solid #555555;
-}
-
+.Yahtzee__info,
 .Shareshot__info {
-  margin: 30px 0 60px 0;
+  margin: 30px 0 90px 0;
   max-width: 80%;
   text-align: center;
 }
 
+.Yahtzee__description,
 .Shareshot__description {
-  margin-bottom: 40px;
 }
 
+.Yahtzee__link,
 .Shareshot__link {
   &:hover {
     font-size: 25px;
   }
 }
 
+.Yahtzee__image,
 .Shareshot__image {
-  height: calc(100vh - 100px);
-  width: 100vw;
+  height: calc(auto - 100px);
+  width: 80vw;
   @media screen and (max-width: 990px) {
     height: 70vh;
   }
+}
+
+.Yahtzee,
+.Shareshot {
+  align-self: start;
+  padding-top: 30px;
+  background-color: white;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border: 7px solid #555555;
 }

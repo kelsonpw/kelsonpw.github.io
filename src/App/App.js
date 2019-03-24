@@ -3,7 +3,7 @@ import Nav from '../Nav';
 import Info from '../Info';
 import Works from '../Works';
 import Bio from '../Bio';
-
+import Contact from '../Contact';
 import './App.scss';
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
       <Info />
       <Works />
       <Bio />
+      <Contact />
     </div>
   );
 }

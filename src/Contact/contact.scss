@@ -1,0 +1,32 @@
+.Contact__body {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 40px;
+}
+
+.Contact__message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Contact__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Contact__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.Contact__form__group {
+  width: 30vw;
+  text-align: left;
+}
