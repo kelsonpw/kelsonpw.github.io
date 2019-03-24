@@ -1,5 +1,13 @@
 import * as React from 'react';
-import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import {
+  Button,
+  Form,
+  FormGroup,
+  Label,
+  Input,
+  ListGroup,
+  ListGroupItem,
+} from 'reactstrap';
 
 import './contact.scss';
 
@@ -21,6 +29,7 @@ function Contact() {
       <h4>Let's get in touch!</h4>
       <div className="Contact__body">
         <div className="Contact_message">
+          <a name="contacts" />
           <strong>Shoot Me A Message</strong>
           <Form className="Contact__form">
             <FormGroup className="Contact__form__group">
@@ -55,9 +64,14 @@ function Contact() {
         </div>
         <div className="Contact__info">
           <strong>Contact Info</strong>
-          <ul className="Contact__info__list">
-            <li className="Contact_info__item" />
-          </ul>
+          <ListGroup className="Contact__info__list" flush>
+            <ListGroupItem>Kelson Warner</ListGroupItem>
+            <ListGroupItem>Oakland, CA 94606</ListGroupItem>
+            <ListGroupItem>kelson@null.net</ListGroupItem>
+            <ListGroupItem tag="a" href="https://www.github.com/kelsonpw">
+              github.com/kelsonpw
+            </ListGroupItem>
+          </ListGroup>
         </div>
       </div>
     </div>

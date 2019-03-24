@@ -10,6 +10,7 @@ function Works() {
   return (
     <div className="Works">
       <div className="Airhead">
+        <a name="works" />
         <img
           className="Airhead__image"
           src={airhead}
@@ -17,7 +18,7 @@ function Works() {
         />
         <div className="Airhead__info">
           <p className="Airhead__description">
-            Airhead, a working slack clone built entirely with{' '}
+            <strong>Airhead</strong>, a working slack clone built entirely with{' '}
             <i>React Hooks</i> and <i>Firebase</i>.{' '}
             <small>
               &nbsp; Type @bot to chat to Bender. He's a chat bot hosted on a
@@ -34,8 +35,8 @@ function Works() {
       <div className="Shareshot">
         <div className="Shareshot__info">
           <p className="Shareshot__description">
-            Shareshot, a modern image sharing app built with VueJS, GraphQL,
-            Apollo, and Express
+            <strong>Shareshot</strong>, a modern image sharing app built with
+            VueJS, GraphQL, Apollo, and Express
           </p>
           <div className="Shareshot__links">
             <a className="Shareshot__link">github</a>|
@@ -56,7 +57,8 @@ function Works() {
         />
         <div className="Warbler__info">
           <p className="Warbler__description">
-            Warbler, a twitter clone built with <i>Python (flask)</i>
+            <strong>Warbler</strong>, a twitter clone built with{' '}
+            <i>Python (flask)</i>
           </p>
           <div className="Warbler__links">
             <a className="Warbler__link">github</a>|
@@ -68,7 +70,8 @@ function Works() {
       <div className="Yahtzee">
         <div className="Yahtzee__info">
           <p className="Yahtzee__description">
-            Yahtzee, the original game, built in React utilizing OOP principles.
+            <strong>Yahtzee</strong>, the original game, built in React
+            utilizing OOP principles.
           </p>
           <a className="Yahtzee__link">github</a>|
           <a className="Yahtzee__link">site</a>

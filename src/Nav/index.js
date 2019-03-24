@@ -7,12 +7,16 @@ function Nav() {
       <div className="Header__left">
         <div className="Header__row">
           <div className="Header__link">
-            <p>WORKS</p>
+            <a href="#works" className="Header__nav__link">
+              WORKS
+            </a>
           </div>
         </div>
         <div className="Header__row">
           <div className="Header__link">
-            <p>ABOUT</p>
+            <a href="#about" className="Header__nav__link">
+              ABOUT
+            </a>
           </div>
         </div>
       </div>
@@ -22,12 +26,16 @@ function Nav() {
       <div className="Header__right">
         <div className="Header__row">
           <div className="Header__link">
-            <p>LINKS</p>
+            <a href="#links" className="Header__nav__link">
+              LINKS
+            </a>
           </div>
         </div>
         <div className="Header__row">
           <div className="Header__link">
-            <p>CONTACTS</p>
+            <a href="#contacts" className="Header__nav__link">
+              CONTACTS
+            </a>
           </div>
         </div>
       </div>

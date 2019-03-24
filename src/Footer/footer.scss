@@ -1,0 +1,28 @@
+@import '../variables.scss';
+
+.Footer {
+  display: grid;
+  grid-template-rows: 180px;
+  grid-template-columns: 1fr 1fr;
+  background-color: $primary-color;
+}
+
+.Footer__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 100%;
+  background-color: $primary-color;
+  color: white;
+  padding-bottom: 60px;
+  padding-right: 25px;
+}
+
+.Footer__item {
+  background-color: $primary-color;
+}
+
+.Footer__link {
+  color: black;
+}

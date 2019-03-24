@@ -3,6 +3,11 @@
   grid-template-rows: 1fr;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 40px;
+
+  @media screen and (max-width: 990px) {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+  }
 }
 
 .Contact__message {
@@ -15,7 +20,12 @@
 .Contact__info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+.Contact__info__list {
+  margin-top: 40px;
 }
 
 .Contact__form {
@@ -27,6 +37,9 @@
 }
 
 .Contact__form__group {
-  width: 30vw;
+  width: 40vw;
   text-align: left;
+  @media screen and (max-width: 990px) {
+    width: 70vw;
+  }
 }

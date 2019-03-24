@@ -24,6 +24,7 @@ function MyNews() {
     <div className="MyNews">
       <h4 className="MyNews__header">Recent articles I found interesting</h4>
       <small>
+        <a name="links" />
         Last updated: {new Date(lastUpdated * 1000).toLocaleDateString()}
       </small>
       <ul className="MyNews__list">

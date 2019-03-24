@@ -7,8 +7,9 @@ import './bio.scss';
 
 function Bio() {
   return (
-    <div className="Bio">
+    <div className="Bio" name="about">
       <div className="Bio__about">
+        <a name="about" />
         <h4 className="Bio__about__header">A Little About Me</h4>
         <p>
           I am a passionate developer with a hunger for solving problems and

@@ -4,6 +4,7 @@ import Info from '../Info';
 import Works from '../Works';
 import Bio from '../Bio';
 import Contact from '../Contact';
+import Footer from '../Footer';
 import './App.scss';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Works />
       <Bio />
       <Contact />
+      <Footer />
     </div>
   );
 }

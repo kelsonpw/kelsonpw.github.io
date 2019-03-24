@@ -11,10 +11,18 @@ function Info() {
       <h3 className="Info__title">Front End Engineer</h3>
       <div className="Info__icons">
         <div />
-        <FiGithub className="Info__icons__icon" />
-        <FiLinkedin className="Info__icons__icon" />
-        <FaAngellist className="Info__icons__icon" />
-        <FiTwitter className="Info__icons__icon" />
+        <a href="https://github.com/kelsonpw">
+          <FiGithub className="Info__icons__icon" />
+        </a>
+        <a href="https://linkedin.com/in/kelson-warner">
+          <FiLinkedin className="Info__icons__icon" />
+        </a>
+        <a href="https://angel.co/kelsonwarner">
+          <FaAngellist className="Info__icons__icon" />
+        </a>
+        <a href="https://twitter.com/thekelsonwarner">
+          <FiTwitter className="Info__icons__icon" />
+        </a>
         <div />
       </div>
     </div>
