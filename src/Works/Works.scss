@@ -11,10 +11,11 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 75px;
   justify-items: center;
+  background-color: $primary-color;
+
   @media screen and (max-width: 990px) {
     grid-template-columns: 1fr;
   }
-  background-color: $primary-color;
 }
 
 .Airhead,
@@ -29,14 +30,13 @@
   align-items: center;
   justify-content: center;
   box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.5);
-  transition: 0.3s;
+  transition: ease-in-out;
+  transition-duration: 300ms;
+  transition-delay: 30ms;
 
   &:hover {
     box-shadow: 0 24px 40px 0 rgba(0, 0, 0, 0.9);
     transform: translateY(10px);
-    transition: ease-in;
-    transition-duration: 150ms;
-    transition-delay: 30ms;
   }
 }
 .Airhead__image,
@@ -68,6 +68,9 @@
 .Shareshot__link {
   margin-left: 8px;
   margin-right: 8px;
+  transition: ease-in-out;
+  transition-duration: 300ms;
+  transition-delay: 30ms;
   &:hover {
     font-size: 25px;
   }

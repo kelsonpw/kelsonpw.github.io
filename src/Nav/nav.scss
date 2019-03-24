@@ -44,27 +44,27 @@
   margin-top: 40px;
   margin-bottom: 80px;
   border: 2px solid black;
-
   box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-
+  transition: ease-in-out;
+  transition-duration: 300ms;
+  transition-delay: 30ms;
   &:hover {
     box-shadow: 0 24px 40px 0 rgba(0, 0, 0, 0.4);
     width: 280px;
     height: 280px;
     background-size: 300px;
-    transition: ease-in;
-    transition-duration: 150ms;
-    transition-delay: 30ms;
   }
 }
 
 .Header__nav__link {
   color: #595959;
   font-size: 20px;
+  transition: ease-in-out;
+  transition-duration: 300ms;
+  transition-delay: 30ms;
 
   &:hover {
-    font-size: 30px;
+    font-size: 1.8rem;
     text-decoration: none;
     color: $primary-color;
   }
