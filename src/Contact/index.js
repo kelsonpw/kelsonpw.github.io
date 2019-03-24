@@ -23,7 +23,7 @@ function Contact() {
       email,
       message,
     };
-    db.collection(`messages/messages`).add({
+    db.collection(`messages`).add({
       name,
       email,
       message,
