@@ -41,11 +41,25 @@
   height: 240px;
   margin-top: 40px;
   margin-bottom: 80px;
-  border: 10px solid black;
+  border: 2px solid black;
   @media screen and (max-width: 990px) {
     width: 280px;
     height: 280px;
     background-size: 300px;
+  }
+
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+
+  &:hover {
+    box-shadow: 0 24px 40px 0 rgba(0, 0, 0, 0.4);
+    width: 280px;
+    height: 280px;
+    background-size: 300px;
+    transform: translateY(-30px);
+    transition: ease-in;
+    transition-duration: 150ms;
+    transition-delay: 30ms;
   }
 }
 

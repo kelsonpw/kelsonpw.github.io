@@ -26,5 +26,9 @@
 
   &:hover {
     font-size: 3rem;
+    transform: translateY(-15px);
+    transition: ease-in;
+    transition-duration: 150ms;
+    transition-delay: 30ms;
   }
 }

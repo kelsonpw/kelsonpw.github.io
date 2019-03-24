@@ -33,6 +33,10 @@
 
   &:hover {
     box-shadow: 0 24px 40px 0 rgba(0, 0, 0, 0.9);
+    transform: translateY(10px);
+    transition: ease-in;
+    transition-duration: 150ms;
+    transition-delay: 30ms;
   }
 }
 .Airhead__image,
@@ -94,6 +98,10 @@
 
   &:hover {
     box-shadow: 0 24px 40px 0 rgba(0, 0, 0, 0.9);
+    transform: translateY(10px);
+    transition: ease-in;
+    transition-duration: 150ms;
+    transition-delay: 30ms;
   }
 }
 
