@@ -47,24 +47,24 @@ function Languages() {
         ))}
       </ListGroup>
       <ButtonGroup className="Languages__buttons">
-        <Button
-          className="Languages__button"
+        <button
+          className="Languages__button first"
           disabled={techBio === frontEnd}
           onClick={() => setTechBio(frontEnd)}>
           Front End
-        </Button>
-        <Button
+        </button>
+        <button
           className="Languages__button"
           disabled={techBio === backEnd}
           onClick={() => setTechBio(backEnd)}>
           Back End
-        </Button>
-        <Button
-          className="Languages__button"
+        </button>
+        <button
+          className="Languages__button last"
           disabled={techBio === misc}
           onClick={() => setTechBio(misc)}>
           Miscellaneous
-        </Button>
+        </button>
       </ButtonGroup>
     </div>
   );

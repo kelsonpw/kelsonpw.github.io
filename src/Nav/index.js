@@ -34,7 +34,7 @@ function Nav() {
         <div className="Header__row">
           <div className="Header__link">
             <a href="#contacts" className="Header__nav__link">
-              CONTACTS
+              CONTACT
             </a>
           </div>
         </div>

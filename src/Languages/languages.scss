@@ -1,3 +1,5 @@
+@import '../variables.scss';
+
 .Languages {
   height: 100%;
   display: flex;
@@ -17,10 +19,29 @@
   margin-top: 40px;
   text-align: center;
   width: 100%;
+  border-radius: 10px;
 }
 
 .Languages__button {
   width: calc(100% / 3);
+  background-color: gray;
+  color: white;
+  border: 0;
+  height: 60px;
+
+  &:disabled {
+    background-color: $primary-color;
+  }
+
+  &.first {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  &.last {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
 }
 
 .Languages__header {
