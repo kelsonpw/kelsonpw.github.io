@@ -12,7 +12,7 @@ function Footer() {
           code for this site can be found{' '}
           <a
             className="Footer__link"
-            href="https://github.com/kelsonpw/kelsons-page-v2">
+            href="https://github.com/kelsonpw/kelsonpw.github.io">
             here
           </a>
         </small>
