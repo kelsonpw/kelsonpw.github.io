@@ -41,7 +41,7 @@ function Languages() {
   const [techBio, setTechBio] = React.useState(frontEnd);
   return (
     <div className="Languages">
-      <h4 className="Languages__header">Some of the technology I use</h4>
+      <h4 className="Languages__header">Some of the technologies I use</h4>
       <ListGroup className="Languages__list">
         {techBio.map(item => (
           <ListGroupItem>{item}</ListGroupItem>
