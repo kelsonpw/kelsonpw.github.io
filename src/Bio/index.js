@@ -10,7 +10,9 @@ function Bio() {
     <div className="Bio" name="about">
       <div>
         <div className="Bio__about">
-          <a name="about" />
+          <a id="about" name="about" href="#about">
+            about
+          </a>
           <h4 className="Bio__about__header">A Little About Me</h4>
           <p>
             I am a passionate developer with a hunger for solving problems and

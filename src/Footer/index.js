@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className="Footer">
       <div className="Footer__left" />
-      <div flush className="Footer__right">
+      <div flush="true" className="Footer__right">
         <small className="Footer__item">Designed by Kelson Warner</small>
         <small className="Footer__item">2019</small>
         <small className="Footer__item">

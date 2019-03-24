@@ -10,7 +10,9 @@ function Works() {
   return (
     <div className="Works">
       <div className="Airhead">
-        <a name="works" />
+        <a name="works" id="works" href="#works">
+          works
+        </a>
         <img
           className="Airhead__image"
           src={airhead}

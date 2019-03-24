@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { FaAngellist, FaFileDownload } from 'react-icons/fa';
+import { FaAngellist } from 'react-icons/fa';
 import { FiGithub, FiLinkedin, FiTwitter, FiFileText } from 'react-icons/fi';
 import kelsonwarnerresume from '../stuff/kelson-warner-resume.pdf';
 import './Info.scss';

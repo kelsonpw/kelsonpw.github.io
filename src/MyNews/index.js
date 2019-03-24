@@ -1,6 +1,5 @@
 import * as React from 'react';
 import useCollection from '../useCollection';
-import { format } from 'date-fns';
 import './mynews.scss';
 
 function MyNews() {
@@ -12,7 +11,6 @@ function MyNews() {
       let mostRecent = -Infinity;
       news.forEach(({ date }) => {
         if (!mostRecent || date.seconds > mostRecent) {
-          console.log(date.seconds, 'date');
           mostRecent = date.seconds;
         }
       });
@@ -22,14 +20,16 @@ function MyNews() {
   return (
     <div className="MyNews">
       <h4 className="MyNews__header">Articles I Found Interesting/Helpful</h4>
+      <a name="links" href="#links" id="links">
+        my article links
+      </a>
       <small>
-        <a name="links" />
         Last updated: {new Date(lastUpdated * 1000).toLocaleDateString()}
       </small>
       <ul className="MyNews__list">
         {news &&
           news.slice(0, 5).map(({ author, title, url }) => (
-            <li className="MyNews__list__item">
+            <li key={url} className="MyNews__list__item">
               <a href={url} className="MyNews__link">
                 {title}
               </a>

@@ -24,9 +24,7 @@ function Contact() {
       message,
     };
     db.collection(`messages`).add({
-      name,
-      email,
-      message,
+      ...msg,
       createdAt: new Date(),
     });
     setName('');
@@ -39,7 +37,9 @@ function Contact() {
       <h4>Let's get in touch!</h4>
       <div className="Contact__body">
         <div className="Contact_message">
-          <a name="contacts" />
+          <a name="contacts" id="contacts" href="#contacts">
+            contacts
+          </a>
           <strong>Shoot Me A Message</strong>
           <Form className="Contact__form">
             <FormGroup className="Contact__form__group">

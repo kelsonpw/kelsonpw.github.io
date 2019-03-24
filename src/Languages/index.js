@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Button, ButtonGroup, ListGroup, ListGroupItem } from 'reactstrap';
+import { ButtonGroup, ListGroup, ListGroupItem } from 'reactstrap';
 
 import './languages.scss';
 import ReactGA from 'react-ga';
@@ -43,8 +43,8 @@ function Languages() {
     <div className="Languages">
       <h4 className="Languages__header">Some of the technologies I use</h4>
       <ListGroup className="Languages__list">
-        {techBio.map(item => (
-          <ListGroupItem>{item}</ListGroupItem>
+        {techBio.map((item, i) => (
+          <ListGroupItem key={i}>{item}</ListGroupItem>
         ))}
       </ListGroup>
       <ButtonGroup className="Languages__buttons">
