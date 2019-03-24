@@ -22,7 +22,7 @@ function MyNews() {
   console.log(new Date(lastUpdated * 1000), 'news');
   return (
     <div className="MyNews">
-      <h4 className="MyNews__header">Recent articles I found interesting</h4>
+      <h4 className="MyNews__header">Articles I Found Interesting/Helpful</h4>
       <small>
         <a name="links" />
         Last updated: {new Date(lastUpdated * 1000).toLocaleDateString()}

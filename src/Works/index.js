@@ -21,8 +21,8 @@ function Works() {
             <strong>Airhead</strong>, a working slack clone built entirely with{' '}
             <i>React Hooks</i> and <i>Firebase</i>.{' '}
             <small>
-              &nbsp; Type @bot to chat to Bender. He's a chat bot hosted on a
-              lambda function!
+              &nbsp; Users can type @bot to chat to Bender. He's a chat bot
+              hosted on a lambda function!
             </small>
           </p>
           <div className="Airhead__links">
