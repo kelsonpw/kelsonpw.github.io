@@ -37,7 +37,7 @@
 }
 .Airhead__image,
 .Warbler__image {
-  height: calc(auto - 100px);
+  height: auto;
   width: auto;
   border: 1px solid rgba(0, 0, 0, 0.3);
   @media screen and (max-width: 990px) {
@@ -84,7 +84,7 @@
 
 .Yahtzee__image,
 .Shareshot__image {
-  height: calc(auto - 100px);
+  height: calc(100% - 100px);
   width: 80vw;
   border: 0.5px solid rgba(0, 0, 0, 0.3);
   @media screen and (max-width: 990px) {
