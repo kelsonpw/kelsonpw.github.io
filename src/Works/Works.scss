@@ -19,7 +19,7 @@
 
 .Airhead,
 .Warbler {
-  background-color: #f1f1f1;
+  background-color: #eef7fe;
   padding-bottom: 30px;
   align-self: end;
   width: auto;
@@ -83,7 +83,7 @@
 .Shareshot {
   align-self: start;
   padding-top: 30px;
-  background-color: #f1f1f1;
+  background-color: #eef7fe;
   width: auto;
   display: flex;
   flex-direction: column;
@@ -101,4 +101,20 @@
   @media screen and (max-width: 990px) {
     width: 100%;
   }
+}
+
+.filler {
+  background-color: #e3e3ee;
+  margin-top: -40px;
+  height: 40px;
+  width: 100%;
+}
+
+.yahtzee_filler {
+  background-color: #ffffff;
+  margin-top: -40px;
+  height: 40px;
+  width: 100%;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
 }

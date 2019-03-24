@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-import warbler from './warbler2.png';
-import shareshot from './shareshot2.png';
-import airhead from './airhead.png';
-import yahtzee from './yahtzee2.png';
+import warbler from '../stuff/warbler2.png';
+import shareshot from '../stuff/shareshot2.png';
+import airhead from '../stuff/airhead.png';
+import yahtzee from '../stuff/yahtzee2.png';
 import './Works.scss';
 
 function Works() {
@@ -60,6 +60,7 @@ function Works() {
           src={shareshot}
           alt="Warbler, a twitter clone project"
         />
+        <div className="filler" />
       </div>
       <div className="Warbler">
         <img
@@ -111,6 +112,7 @@ function Works() {
           src={yahtzee}
           alt="Warbler, a twitter clone project"
         />
+        <div className="yahtzee_filler" />
       </div>
     </div>
   );
