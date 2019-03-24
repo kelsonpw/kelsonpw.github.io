@@ -16,12 +16,17 @@ function Contact() {
   const [email, setEmail] = React.useState('');
   const [message, setMessage] = React.useState('');
 
-  const sendEmail = () => {
+  const sendEmail = e => {
+    e.preventDefault();
     const msg = {
       name,
       email,
       message,
     };
+
+    setName('');
+    setEmail('');
+    setMessage('');
   };
 
   return (
@@ -38,6 +43,7 @@ function Contact() {
                 type="text"
                 name="name"
                 id="yourName"
+                value={name}
                 onChange={evt => setName(evt.target.value)}
               />
             </FormGroup>
@@ -47,6 +53,7 @@ function Contact() {
                 type="email"
                 name="email"
                 id="yourEmail"
+                value={email}
                 onChange={evt => setEmail(evt.target.value)}
               />
             </FormGroup>
@@ -56,10 +63,11 @@ function Contact() {
                 type="textarea"
                 name="message"
                 id="yourMessage"
+                value={message}
                 onChange={evt => setMessage(evt.target.value)}
               />
             </FormGroup>
-            <Button>Submit</Button>
+            <Button onClick={sendEmail}>Submit</Button>
           </Form>
         </div>
         <div className="Contact__info">
