@@ -8,7 +8,7 @@ import {
   ListGroup,
   ListGroupItem,
 } from 'reactstrap';
-
+import { db } from '../firebase';
 import './contact.scss';
 
 function Contact() {
@@ -23,7 +23,12 @@ function Contact() {
       email,
       message,
     };
-
+    db.collection(`messages/messages`).add({
+      name,
+      email,
+      message,
+      createdAt: new Date(),
+    });
     setName('');
     setEmail('');
     setMessage('');
