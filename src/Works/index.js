@@ -26,8 +26,17 @@ function Works() {
             </small>
           </p>
           <div className="Airhead__links">
-            <a className="Airhead__link">github</a>|
-            <a className="Airhead__link">site</a>
+            <a
+              className="Airhead__link"
+              href="https://www.github.com/kelsonpw/chatapp">
+              github link
+            </a>
+            |
+            <a
+              className="Airhead__link"
+              href="https://airheadio.firebaseapp.com/">
+              site link
+            </a>
           </div>
         </div>
       </div>
@@ -39,8 +48,11 @@ function Works() {
             VueJS, GraphQL, Apollo, and Express
           </p>
           <div className="Shareshot__links">
-            <a className="Shareshot__link">github</a>|
-            <a className="Shareshot__link">site</a>
+            <a
+              className="Shareshot__link"
+              href="https://www.github.com/kelsonpw/shareshot">
+              github link
+            </a>
           </div>
         </div>
         <img
@@ -61,8 +73,17 @@ function Works() {
             <i>Python (flask)</i>
           </p>
           <div className="Warbler__links">
-            <a className="Warbler__link">github</a>|
-            <a className="Warbler__link">site</a>
+            <a
+              className="Warbler__link"
+              href="https://github.com/kelsonpw/WarblerV2">
+              github link
+            </a>
+            |
+            <a
+              className="Warbler__link"
+              href="https://warbler-v2.herokuapp.com/">
+              site link
+            </a>
           </div>
         </div>
       </div>
@@ -73,8 +94,17 @@ function Works() {
             <strong>Yahtzee</strong>, the original game, built in React
             utilizing OOP principles.
           </p>
-          <a className="Yahtzee__link">github</a>|
-          <a className="Yahtzee__link">site</a>
+          <a
+            className="Yahtzee__link"
+            href="https://github.com/kelsonpw/React-Yahtzee">
+            github link
+          </a>
+          |
+          <a
+            className="Yahtzee__link"
+            href="http://thekelsonwarner.com/React-Yahtzee">
+            site link
+          </a>
         </div>
         <img
           className="Yahtzee__image"

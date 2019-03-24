@@ -45,25 +45,7 @@
   }
 }
 .Airhead__info,
-.Warbler__info {
-  margin: 30px 0 30px 0;
-  max-width: 80%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.Airhead__description,
-.Warbler__description {
-}
-
-.Airhead__link,
-.Warbler__link {
-  &:hover {
-    font-size: 25px;
-  }
-}
-
+.Warbler__info,
 .Yahtzee__info,
 .Shareshot__info {
   margin: 30px 0 90px 0;
@@ -71,12 +53,17 @@
   text-align: center;
 }
 
-.Yahtzee__description,
-.Shareshot__description {
+.Airhead__info,
+.Warbler__info {
+  margin: 30px 0 30px 0;
 }
 
+.Airhead__link,
+.Warbler__link,
 .Yahtzee__link,
 .Shareshot__link {
+  margin-left: 8px;
+  margin-right: 8px;
   &:hover {
     font-size: 25px;
   }
