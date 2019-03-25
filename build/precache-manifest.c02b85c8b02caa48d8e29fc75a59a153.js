@@ -1,27 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "efc8553827f0b6b35f38",
+    "revision": "d5c1a0aa580d7f8cc82b",
     "url": "/static/css/main.70c6f441.chunk.css"
   },
   {
-    "revision": "efc8553827f0b6b35f38",
-    "url": "/static/js/main.72e4d44e.chunk.js"
+    "revision": "d5c1a0aa580d7f8cc82b",
+    "url": "/static/js/main.b7414627.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "598aef146c0604d2b5e8",
+    "revision": "c97a7583946c9a87f343",
     "url": "/static/css/2.36d9285c.chunk.css"
   },
   {
-    "revision": "598aef146c0604d2b5e8",
-    "url": "/static/js/2.b2f313d3.chunk.js"
-  },
-  {
-    "revision": "3972566e50c168ca26a024e140fdb5b8",
-    "url": "/static/media/kelson-warner-resume.3972566e.pdf"
+    "revision": "c97a7583946c9a87f343",
+    "url": "/static/js/2.9bf5f157.chunk.js"
   },
   {
     "revision": "07a2fc0f609f961782af58b092058cd6",
@@ -44,7 +40,7 @@ self.__precacheManifest = [
     "url": "/static/media/headshot.f694c857.png"
   },
   {
-    "revision": "78ce6f0f2f1919722ef8fd46ff0047f4",
+    "revision": "0584b11ce43f96fb8ec2fba4d7aae7e6",
     "url": "/index.html"
   }
 ];
