@@ -1,7 +1,7 @@
 import * as React from 'react';
 import ReactDOM from 'react-dom';
 import ReactGA from 'react-ga';
-import App from './App';
+import App from './App/Loadable';
 import typography from './utils/typography';
 import 'bootstrap/dist/css/bootstrap.min.css';
 

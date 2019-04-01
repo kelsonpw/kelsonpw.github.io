@@ -1,17 +1,23 @@
 import * as React from 'react';
-import { ClimbingBoxLoader } from 'react-spinners';
-import Loadable from 'react-loadable';
+import Nav from '../components/Nav';
+import Info from '../components/Info';
+import Works from '../components/Works';
+import Bio from '../components/Bio';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 import './App.scss';
 
-const Loader = () => (
-  <div className="Loader">
-    <ClimbingBoxLoader size={50} color={'#007fff'} />
-  </div>
-);
+function App() {
+  return (
+    <div className="App">
+      <Nav />
+      <Info />
+      <Works />
+      <Bio />
+      <Contact />
+      <Footer />
+    </div>
+  );
+}
 
-const AppComponent = Loadable({
-  loader: () => import('./App'),
-  loading: () => <Loader />,
-});
-
-export default AppComponent;
+export default App;
