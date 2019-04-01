@@ -1,10 +1,10 @@
 import * as React from 'react';
-import Nav from '../Nav';
-import Info from '../Info';
-import Works from '../Works';
-import Bio from '../Bio';
-import Contact from '../Contact';
-import Footer from '../Footer';
+import Nav from '../components/Nav';
+import Info from '../components/Info';
+import Works from '../components/Works';
+import Bio from '../components/Bio';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 import './App.scss';
 
 function App() {

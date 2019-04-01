@@ -8,7 +8,7 @@ import {
   ListGroup,
   ListGroupItem,
 } from 'reactstrap';
-import { db } from '../firebase';
+import { db } from '../../firebase';
 import './contact.scss';
 
 function Contact() {
@@ -74,7 +74,7 @@ function Contact() {
           </Form>
         </div>
         <div className="Contact__info">
-          <strong>Contact Info</strong>
+          <strong className="Contact__info__title">Contact Info</strong>
           <ListGroup className="Contact__info__list" flush>
             <ListGroupItem>Kelson Warner</ListGroupItem>
             <ListGroupItem>Oakland, CA 94606</ListGroupItem>

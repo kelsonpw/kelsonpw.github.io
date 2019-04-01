@@ -1,5 +1,5 @@
 import * as React from 'react';
-import useCollection from '../useCollection';
+import useCollection from '../../hooks/useCollection';
 import './mynews.scss';
 
 function MyNews() {
