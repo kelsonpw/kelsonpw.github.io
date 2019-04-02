@@ -22,7 +22,7 @@ function Info() {
         <a href="https://twitter.com/thekelsonwarner">
           <FiTwitter className="Info__icons__icon" />
         </a>
-        <a href="https://kelsonpw.github.io/static/media/kelson-warner-resume.3972566e.pdf">
+        <a href="https://www.dropbox.com/s/6fbqpc7isd6rl7a/kw2019.pdf?dl=0">
           <FiFileText className="Info__icons__icon" />
         </a>
       </div>
