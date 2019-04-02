@@ -1,5 +1,9 @@
 .Contact {
   justify-content: center;
+
+  @media screen and (max-width: 990px) {
+    margin-top: -300px;
+  }
 }
 
 .Contact__body {
@@ -19,6 +23,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-grow: 1;
 }
 
 .Contact__info {
@@ -29,7 +34,9 @@
   margin-top: 10px;
   padding-right: 100px;
   @media screen and (max-width: 990px) {
-    padding-left: 75px;
+    padding: 0;
+    justify-content: center;
+    margin-top: -100px;
   }
 }
 

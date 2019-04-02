@@ -18,6 +18,10 @@
   grid-template: 100px / 1fr repeat(5, 80px) 1fr;
   justify-items: center;
   margin-bottom: 80px;
+
+  @media screen and (max-width: 990px) {
+    grid-template: 100px / 1fr repeat(5, 70px) 1fr;
+  }
 }
 
 .Info__icons__icon {

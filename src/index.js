@@ -4,6 +4,7 @@ import ReactGA from 'react-ga';
 import App from './App/Loadable';
 import typography from './utils/typography';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'normalize.css';
 
 ReactGA.initialize('UA-136843165-1');
 ReactGA.pageview(
