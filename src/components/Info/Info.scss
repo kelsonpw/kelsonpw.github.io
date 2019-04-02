@@ -1,0 +1,37 @@
+@import '../../utils/variables';
+
+.Info {
+  margin-top: 60px;
+}
+
+.Info__name {
+}
+
+.Info__title {
+  margin-top: 60px;
+  color: $primary-color;
+}
+
+.Info__icons {
+  color: $primary-color;
+  display: grid;
+  grid-template: 100px / 1fr repeat(5, 80px) 1fr;
+  justify-items: center;
+  margin-bottom: 80px;
+
+  @media screen and (max-width: 990px) {
+    grid-template: 100px / 1fr repeat(5, 70px) 1fr;
+  }
+}
+
+.Info__icons__icon {
+  height: 100px;
+  font-size: 2.2rem;
+  transition: ease-in-out;
+  transition-duration: 300ms;
+  transition-delay: 30ms;
+  &:hover {
+    font-size: 3rem;
+    transform: translateY(-10px);
+  }
+}

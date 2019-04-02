@@ -1,0 +1,32 @@
+@import '../../utils/variables';
+
+.Footer {
+  display: grid;
+  grid-template-rows: 250px;
+  grid-template-columns: 1fr 300px;
+  background-color: $primary-color;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+}
+
+.Footer__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100%;
+  background-color: $primary-color;
+  color: white;
+}
+
+.Footer__item {
+  background-color: $primary-color;
+  text-align: right;
+  padding-top: 15px;
+  padding-right: 30px;
+}
+
+.Footer__link {
+  color: black;
+}

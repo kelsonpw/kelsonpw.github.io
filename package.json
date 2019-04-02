@@ -2,19 +2,24 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+<<<<<<< HEAD
   "homepage": "http://kelsonpw.github.io",
+=======
+  "homepage": "https://kelson.io",
+>>>>>>> 6cd55fb67c5efcac189fc97db5fac271e4f0a6aa
   "dependencies": {
     "bootstrap": "^4.3.1",
     "date-fns": "^1.30.1",
     "firebase": "^5.9.1",
-    "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0",
+    "normalize.css": "^8.0.1",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
     "react-ga": "^2.5.7",
     "react-icons": "^3.5.0",
     "react-loadable": "^5.5.0",
     "react-scripts": "2.1.8",
+    "react-spinners": "^0.5.3",
     "reactstrap": "^7.1.0",
     "typography": "^0.16.19",
     "typography-theme-funston": "^0.16.19"
@@ -23,9 +28,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"

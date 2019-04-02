@@ -1,0 +1,135 @@
+@import '../../utils/variables';
+
+.Works {
+  display: grid;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  border: 1px solid black;
+  padding-right: 10%;
+  padding-left: 10%;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 75px;
+  justify-items: center;
+  background-color: $primary-color;
+
+  @media screen and (max-width: 990px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.Airhead,
+.Warbler {
+  background-color: #eef7fe;
+  padding-bottom: 30px;
+  align-self: end;
+  width: auto;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.5);
+  transition: ease-in-out;
+  transition-duration: 300ms;
+  transition-delay: 30ms;
+
+  &:hover {
+    box-shadow: 0 24px 40px 0 rgba(0, 0, 0, 0.9);
+    transform: translateY(10px);
+  }
+}
+.Airhead__image,
+.Warbler__image {
+  height: auto;
+  width: auto;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  @media screen and (max-width: 990px) {
+    height: 70vh;
+  }
+}
+.Airhead__info,
+.Warbler__info,
+.Yahtzee__info,
+.Shareshot__info {
+  margin: 30px 0 90px 0;
+  max-width: 80%;
+  text-align: center;
+}
+
+.Airhead__info,
+.Warbler__info {
+  margin: 30px 0 30px 0;
+}
+
+.Airhead__link,
+.Warbler__link,
+.Yahtzee__link,
+.Shareshot__link {
+  margin-left: 8px;
+  margin-right: 8px;
+  transition: ease-in-out;
+  transition-duration: 300ms;
+  transition-delay: 30ms;
+  &:hover {
+    font-size: 25px;
+  }
+}
+
+.Yahtzee__image,
+.Shareshot__image {
+  height: calc(100% - 100px);
+  width: 80vw;
+  border: 0.5px solid rgba(0, 0, 0, 0.3);
+  @media screen and (max-width: 990px) {
+    height: 70vh;
+  }
+}
+
+.Yahtzee,
+.Shareshot {
+  align-self: start;
+  padding-top: 30px;
+  background-color: #eef7fe;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+
+  &:hover {
+    box-shadow: 0 24px 40px 0 rgba(0, 0, 0, 0.9);
+    transform: translateY(10px);
+    transition: ease-in;
+    transition-duration: 150ms;
+    transition-delay: 30ms;
+  }
+}
+
+.Warbler__image {
+  @media screen and (max-width: 990px) {
+    width: 100%;
+  }
+}
+
+.filler {
+  background-color: #e3e3ee;
+  margin-top: -40px;
+  height: 40px;
+  width: 100%;
+}
+
+.yahtzee_filler {
+  background-color: #ffffff;
+  margin-top: -40px;
+  height: 40px;
+  width: 100%;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+#works {
+  color: transparent;
+}

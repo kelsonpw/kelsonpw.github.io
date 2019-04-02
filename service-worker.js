@@ -12,7 +12,11 @@
  */
 
 importScripts(
+<<<<<<< HEAD:service-worker.js
   'https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js'
+=======
+  "/precache-manifest.4948f1e9c5e0a9521662a52080445a6d.js"
+>>>>>>> 6cd55fb67c5efcac189fc97db5fac271e4f0a6aa:build/service-worker.js
 );
 
 importScripts('/precache-manifest.7dd42ac6b3c5b853bf2220c53e633f1f.js');
