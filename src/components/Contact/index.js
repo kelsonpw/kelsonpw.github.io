@@ -8,30 +8,12 @@ import {
   ListGroup,
   ListGroupItem,
 } from 'reactstrap';
-import { db } from '../../firebase';
+
+import useEmailFrom from '../../hooks/useEmailForm';
 import './contact.scss';
 
 function Contact() {
-  const [name, setName] = React.useState('');
-  const [email, setEmail] = React.useState('');
-  const [message, setMessage] = React.useState('');
-
-  const sendEmail = e => {
-    e.preventDefault();
-    const msg = {
-      name,
-      email,
-      message,
-    };
-    db.collection(`messages`).add({
-      ...msg,
-      createdAt: new Date(),
-    });
-    setName('');
-    setEmail('');
-    setMessage('');
-  };
-
+  const { state, update, sendEmail } = useEmailFrom();
   return (
     <div className="Contact">
       <h4>Let's get in touch!</h4>
@@ -46,8 +28,8 @@ function Contact() {
                 type="text"
                 name="name"
                 id="yourName"
-                value={name}
-                onChange={evt => setName(evt.target.value)}
+                value={state.name}
+                onChange={update}
               />
             </FormGroup>
             <FormGroup className="Contact__form__group">
@@ -56,8 +38,8 @@ function Contact() {
                 type="email"
                 name="email"
                 id="yourEmail"
-                value={email}
-                onChange={evt => setEmail(evt.target.value)}
+                value={state.email}
+                onChange={update}
               />
             </FormGroup>
             <FormGroup className="Contact__form__group">
@@ -66,8 +48,8 @@ function Contact() {
                 type="textarea"
                 name="message"
                 id="yourMessage"
-                value={message}
-                onChange={evt => setMessage(evt.target.value)}
+                value={state.message}
+                onChange={update}
               />
             </FormGroup>
             <Button onClick={sendEmail}>Submit</Button>
