@@ -28,14 +28,7 @@ function Experience() {
         <ListGroupItem>
           <ListGroupItemHeading>Operations Manager</ListGroupItemHeading>
           <ListGroupItemText>Cirrus LED Systems Inc.</ListGroupItemText>
-          <ListGroupItemText>10/2016 - 12/2017</ListGroupItemText>
-        </ListGroupItem>
-        <ListGroupItem>
-          <ListGroupItemHeading>Head of eCommerce</ListGroupItemHeading>
-          <ListGroupItemText>
-            BBA Solutions - UC Berkeley Bookstore
-          </ListGroupItemText>
-          <ListGroupItemText>5/2014 - 10/2016</ListGroupItemText>
+          <ListGroupItemText>2015-16</ListGroupItemText>
         </ListGroupItem>
       </ListGroup>
     </div>
