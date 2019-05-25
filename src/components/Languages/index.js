@@ -47,7 +47,7 @@ function Languages() {
           <ListGroupItem key={i}>{item}</ListGroupItem>
         ))}
       </ListGroup>
-      <ButtonGroup className="Languages__buttons">
+      <ButtonGroup className="Languages__buttons" vertical>
         <button
           className="Languages__button first"
           disabled={techBio === frontEnd}

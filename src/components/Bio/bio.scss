@@ -18,3 +18,11 @@
 #about {
   color: transparent;
 }
+
+.Bio__tech {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
