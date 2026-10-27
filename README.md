@@ -1,3 +1,10 @@
+# Kelson’s projects
+
+- [Queue](https://kelsonpw.github.io/queue/) — A clean, local-first ClojureScript todo app.
+- [Kelson Review](https://kelsonpw.github.io/kelson-review/) — High standards. Less noise. Keep shipping.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
